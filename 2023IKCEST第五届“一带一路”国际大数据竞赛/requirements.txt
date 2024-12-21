@@ -1,0 +1,22 @@
+numpy==1.19.5
+pandas==1.1.5
+matplotlib==2.2.3
+tqdm==4.64.1
+paddlenlp==2.4.2
+paddlepaddle-gpu==2.4.0.post112
+shapely
+scikit-image
+imgaug
+pyclipper
+lmdb
+tqdm
+numpy
+visualdl
+rapidfuzz
+opencv-contrib-python==4.4.0.46
+cython
+lxml
+premailer
+openpyxl
+attrdict
+#PaddleOCR-2.6.0 套件安装
