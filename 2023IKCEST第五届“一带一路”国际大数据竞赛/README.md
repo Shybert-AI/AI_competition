@@ -17,7 +17,7 @@
 └── 团队信息.txt
 ```
 ## 2.环境配置 
-环境采用的是paddle框架进行训练的,paddlenlp-2.4.2(paddlenlp-2.5.1之后,ernie模型初始化不完整，会丢失部分权重)，显卡配置V100 32G,安装包依赖见requirements.txt
+  环境采用的是paddle框架进行训练的,paddlenlp-2.4.2(paddlenlp-2.5.1之后,ernie模型初始化不完整，会丢失部分权重)，显卡配置V100 32G,安装包依赖见requirements.txt
 ## 3.环境依赖包  
 requirements.txt
 ## 4.数据输入  
