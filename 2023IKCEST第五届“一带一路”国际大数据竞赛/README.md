@@ -1,19 +1,21 @@
 # 训练代码文件   
 ## 1.目录结构 
+```
 .
-├── ernie-m-base                                                                     # ernie模型离线加载目录
-├── main_warmup2_增强_ocr_频域特征v2_融合_epoch4_100_0.84122-final.ipynb              # 训练代码
-├── model                                                                            # 最优模型保存路径
-├── paddlenlp                                                                        # paddlenlp-2.4.2的离线版本，paddlenlp-2.5.1后,ernie模型初始化会丢失部分权重
+├── ernie-m-base                                                                     # ernie模型离线加载目录  
+├── main_warmup2_增强_ocr_频域特征v2_融合_epoch4_100_0.84122-final.ipynb              # 训练代码  
+├── model                                                                            # 最优模型保存路径  
+├── paddlenlp                                                                        # paddlenlp-2.4.2的离线版本，paddlenlp-2.5.1后,ernie模型初始化会丢失部分权重  
 ├── paddlenlp-2.4.2.dist-info
-├── PaddleOCR-2.6.0                                                                  # PaddleOCR-2.6.0的离线版本,安装采用jupyter左侧的套件安装
+├── PaddleOCR-2.6.0                                                                  # PaddleOCR-2.6.0的离线版本,安装采用jupyter左侧的套件安装  
 ├── predict.py                                                                       # 推理脚本       
-├── predict_system.py                                                                # 修改的tools/infer/predict_system.py脚本，用于进行图片的OCR识别 
-├── README.md                                                                        # 说明文档
-├── requirements.txt                                                                 # 环境依赖
-├── result.csv                                                                       # 结果文件
+├── predict_system.py                                                                # 修改的tools/infer/predict_system.py脚本，用于进行图片的OCR识别   
+├── README.md                                                                        # 说明文档  
+├── requirements.txt                                                                 # 环境依赖  
+├── result.csv                                                                       # 结果文件  
 ├── submission.zip                                                                   # submission.zip为榜单上最终成绩文件
 └── 团队信息.txt
+```
 ## 2.环境配置 
     环境采用的是paddle框架进行训练的,paddlenlp-2.4.2(paddlenlp-2.5.1之后,ernie模型初始化不完整，会丢失部分权重)，显卡配置V100 32G,安装包依赖见requirements.txt
 ## 3.环境依赖包  
